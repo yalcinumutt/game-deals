@@ -19,7 +19,7 @@ export class Deals extends Entity {
     type: 'string',
     required: true,
   })
-  metacriticLink: string;
+  metaCriticLink: string;
 
   @property({
     type: 'boolean',
